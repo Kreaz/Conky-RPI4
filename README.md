@@ -3,15 +3,15 @@ Disclaimer!! This is not my work. The guide I followed was Don from Novaspirit T
 
 - Install Conky
 ```
-$ sudo apt-get install conky-all
+sudo apt-get install conky-all
 ```
 - Download config file
 ```
-$ wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
+wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
 ```
 - Creating a shell script to start conky
 ```
-$ sudo nano /usr/bin/conky.sh
+sudo nano /usr/bin/conky.sh
 ```
 - Then paste this script:
 ```
@@ -22,7 +22,7 @@ exit 0
 - Save and exit.
 - Create a desktop entry to autostart the script
 ```
-$ sudo nano /etc/xdg/autostart/conky.desktop
+sudo nano /etc/xdg/autostart/conky.desktop
 ```
 - Then paste this into the file:
 ```
