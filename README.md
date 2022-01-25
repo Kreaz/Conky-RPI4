@@ -9,11 +9,11 @@ sudo apt-get install conky-all
 ```
 wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
 ```
-- Creating a shell script to start conky
+- Download shell script
 ```
 wget -O /usr/bin/conky.sh https://github.com/Kreaz/Conky-RPI4/blob/23487170c5347fe1153ae0fae792a0da378329a6/conky
 ```
-- Create a desktop entry to autostart the script
+- Download desktop entry for autostart
 ```
 wget -O /etc/xdg/autostart/conky.desktop https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/conky.desktop
 ```
