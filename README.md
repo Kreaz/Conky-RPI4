@@ -20,7 +20,6 @@ $ sudo nano /usr/bin/conky.sh
 exit 0
 ```
 - Save and exit.
-
 - Create a desktop entry to autostart the script
 ```
 $ sudo nano /etc/xdg/autostart/conky.desktop
