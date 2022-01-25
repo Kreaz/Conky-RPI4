@@ -3,37 +3,19 @@ Disclaimer!! This is not my work. The guide I followed was Don from Novaspirit T
 
 - Install Conky
 ```
-$ sudo apt-get install conky-all
+sudo apt-get install conky-all
 ```
 - Download config file
 ```
-$ wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
+wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
 ```
 - Creating a shell script to start conky
 ```
-$ sudo nano /usr/bin/conky.sh
+wget -O /usr/bin/conky.sh https://github.com/Kreaz/Conky-RPI4/blob/23487170c5347fe1153ae0fae792a0da378329a6/conky
 ```
-- Then paste this script:
-```
-#!/bin/sh
-(sleep 4s && conky) &
-exit 0
-```
-- Save and exit.
 - Create a desktop entry to autostart the script
 ```
-$ sudo nano /etc/xdg/autostart/conky.desktop
+wget -O /etc/xdg/autostart/conky.desktop https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/conky.desktop
 ```
-- Then paste this into the file:
-```
-[Desktop Entry]
-Name=conky
-Type=Application
-Exec=sh /usr/bin/conky.sh
-Terminal=false
-Comment=system monitoring tool.
-Categories=Utility;
-```
-- Save and exit.
 
 
