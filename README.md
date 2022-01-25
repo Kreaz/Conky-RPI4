@@ -37,3 +37,7 @@ Categories=Utility;
 - Save and exit.
 
 
+- Removing Conky
+```
+sudo apt-get --purge remove conky conky-all
+```
