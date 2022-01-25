@@ -7,7 +7,7 @@ $ sudo apt-get install conky-all
 ```
 - Download config file
 ```
-$ wget -O /home/pi/.conkyrc https://github.com/Kreaz/Conky-RPI4/blob/b61cffce6791a572884ef4779de8cd16442b0618/.conkyrc
+$ wget -O /home/pi/.conkyrc https://raw.githubusercontent.com/Kreaz/Conky-RPI4/main/.conkyrc
 ```
 - Creating a shell script to start conky
 ```
